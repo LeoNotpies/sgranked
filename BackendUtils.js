@@ -255,7 +255,7 @@ class UserModel {
       deviceId,
       stumbleId: BackendUtils.generateId().toUpperCase(),
       username,
-      country: 'IT',
+      country: 'EN',
       region: 'EU',
       token: CryptoUtils.SessionToken(),
       version: platformData.Version || '0.99',
